@@ -1,0 +1,38 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+#mainHeader {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  background-color: white;
+}
+
+.nav {
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.explore-keremet {
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: 3rem;
+}
+
+hr {
+  border-color: #e76e39;
+  width: 52px;
+  margin: 20px auto 25px;
+}
