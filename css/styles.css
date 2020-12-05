@@ -7,6 +7,7 @@
 
 .navbar-light .navbar-nav .nav-link {
   color: black;
+  text-align: right;
 }
 
 .carousel-indicators li {
@@ -16,15 +17,6 @@
   background-color: white;
 }
 
-.nav {
-  border: 1px solid #ccc;
-  border-width: 1px 0;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: right;
-}
-
 .explore-keremet {
   font-weight: 500;
   font-size: 40px;
@@ -32,7 +24,40 @@
 }
 
 hr {
-  border-color: #e76e39;
-  width: 52px;
-  margin: 20px auto 25px;
+  width: 5%;
+    border: dotted #c05555 6px;
+    border-bottom: none;
+}
+
+.product-list-item {
+  display: inline-block;
+  list-style-type: none;
+  margin: 1%;
+}
+
+.product-list {
+  text-align: center;
+}
+
+
+
+.footer-menu {
+  color: black;
+  font-weight: bold;
+  margin: 3rem auto;
+}
+
+.copyright {
+  color: grey;
+  font-size: 1rem;
+  margin: 30px auto 0 auto;
+  padding: 20px 0;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  text-align: center;
+}
+
+.card:hover {
+transform: translateY(20px);
+transition-duration: 1s;
 }
