@@ -1,5 +1,9 @@
 /* font-family: 'Montserrat', sans-serif; */
 
+body {
+  background-color: #f4eeed;
+}
+
 #mainHeader {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
@@ -25,21 +29,26 @@
 
 hr {
   width: 5%;
-    border: dotted #c05555 6px;
-    border-bottom: none;
+  border: dotted #c05555 6px;
+  border-bottom: none;
 }
 
 .product-list-item {
   display: inline-block;
   list-style-type: none;
   margin: 1%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+a {
+  color: black;
 }
 
 .product-list {
   text-align: center;
 }
-
-
 
 .footer-menu {
   color: black;
@@ -50,14 +59,72 @@ hr {
 .copyright {
   color: grey;
   font-size: 1rem;
-  margin: 30px auto 0 auto;
+  margin: 30px auto;
   padding: 20px 0;
   border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
+  border-bottom: 0;
   text-align: center;
 }
 
 .card:hover {
-transform: translateY(20px);
-transition-duration: 1s;
+  transform: translateY(20px);
+  transition-duration: 1s;
 }
+
+/***Map CSS from MBDBootstrap*****/
+
+.map-container-5 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-5 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.search-results {
+  padding: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.justify-content-center {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search-box {
+  background-color: #999b84;
+  /***Added color to see layout elemtns inside of the div***/
+  padding: 1rem;
+}
+
+.footer-list {
+  width: 50%;
+  margin: auto;
+}
+
+.jarallax-img {
+  opacity: 0.5;
+}
+
+.display-3 {
+  font-size: 30px;
+}
+
+/* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+
+@media screen and (max-width: 600px) {
+  .display-3 {
+    font-size: 30px;
+  }
+  .jarallax-img {
+    display: none;
+  }
+
+}
+
