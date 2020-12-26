@@ -29,7 +29,7 @@ body {
 
 hr {
   width: 5%;
-  border: dotted #c05555 6px;
+  border: dotted #556052 6px;
   border-bottom: none;
 }
 
@@ -93,14 +93,12 @@ a {
   font-family: 'Montserrat', sans-serif;
 }
 
-.justify-content-center {
-  font-family: 'Montserrat', sans-serif;
-}
-
 .search-box {
   background-color: #999b84;
   /***Added color to see layout elemtns inside of the div***/
-  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 0.25rem;
+  justify-content: center;
 }
 
 .footer-list {
@@ -125,6 +123,26 @@ a {
   .jarallax-img {
     display: none;
   }
+}
 
+.breadcrumb {
+  background-color: #999b84;
+}
+
+.btn-block {
+  margin: 0.5rem;
+}
+
+
+.btn-primary {
+  color: #fff;
+  background-color: #999b84;
+  border-color: #556052; /*set the color you want here*/
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #556052;
+  border-color: #556052; /*set the color you want here*/
 }
 
