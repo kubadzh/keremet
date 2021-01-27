@@ -68,10 +68,9 @@
                         <a class="nav-link" href="finance.html">FINANCE</a>
                     </li>
 
-                    <li class="nav-item align-self-center">
-                        <a class="btn btn-outline-success float-right" href="find-dealer.html" role="button">FIND A
-                            DEALER</a>
-
+                    
+                    <li class="nav-item">
+                        <a class="btn btn-outline-success float-right" href="find-dealer.html" role="button">FIND A DEALER</a>
                     </li>
 
 
@@ -84,12 +83,51 @@
         <!--BREADCRUMB-->
         
             <nav aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">About </li>
-              </ol>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">About </li>
+                </ol>
             </nav>
          
+            <div id="loginModal" class="modal fade" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">Login</h3>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <form>
+                                    <div class="form-row">
+                                        <div class="form-group col-12">
+                                            <label class="sr-only" for="loginEmail">Email address</label>
+                                            <input type="email" class="form-control form-control-sm" id="loginEmail"
+                                                placeholder="Enter email">
+                                        </div>
+                                        <div class="form-group col-12">
+                                            <label class="sr-only" for="loginPassword">Password</label>
+                                            <input type="password" class="form-control form-control-sm" id="loginPassword"
+                                                placeholder="Password">
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox">
+                                                <label class="form-check-label"> Remember me</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <button type="button" class="btn btn-secondary btn-sm ml-auto"
+                                            data-dismiss="modal">Cancel</button>
+                                        <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
       
 
 

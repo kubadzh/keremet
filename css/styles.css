@@ -146,3 +146,41 @@ a {
   border-color: #556052; /*set the color you want here*/
 }
 
+
+
+
+.controls-top{
+  text-align: center;
+  }
+  .fa-chevron-left {
+    margin-right: 80%;
+    color:green;
+  }
+  .fa-chevron-right {
+    color:green;
+  }
+
+  .special-offer-card {
+   text-align: center;
+   
+    
+  }
+  .keremet-finance-card {
+    background: no-repeat url("C:\Users\kubad\Desktop\NucampFolder\Projects\Portfolio Project\img\farm_field.jpg");
+    height: 400px;
+    width: 100%;
+  }
+
+
+
+  #reserveModal .modal-header {
+    background-color: #17a2b8;
+    color: white; }
+  
+  #loginModal .modal-header {
+    background-color: #556052;
+    color: white; }
+
+
+
+  
