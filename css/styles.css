@@ -94,8 +94,6 @@ a {
 }
 
 .search-box {
-  background-color: #999b84;
-  /***Added color to see layout elemtns inside of the div***/
   font-family: 'Montserrat', sans-serif;
   border-radius: 0.25rem;
   justify-content: center;
